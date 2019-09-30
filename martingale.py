@@ -16,7 +16,8 @@ class Martingale:
 
     def martingale(self):
         print(self.money)
-        while self.money < 110:
+        value = 0
+        while value <= -100 | value < 5:
             self.roll(1)
         print(self.money)
 
